@@ -1,0 +1,128 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #35495e;
+  font-family: 'Permanent Marker', cursive;
+}
+body{
+  /* background-image: url(http://www.baltana.com/files/wallpapers-5/Gradient-Background-Best-Wallpaper-16349.jpg); */
+  background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/03/Rainbow%20colors%20Blurred8515913384.jpg);
+  /* background-image: url(https://image.freepik.com/free-vector/colorful-equalizer-wave-background_52683-33072.jpg); */
+  /* background-image: url(http://procurementstore.co.uk/wp-content/uploads/blur-bg-blue-1-940x573.jpg); */
+}
+
+.htp {
+  padding-top : 10%;
+  color: yellow;
+font-family: 'Itim', cursive;
+  font-size: 1.5rem;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.sign {
+  color: yellow;
+}
+
+footer {
+  color: white;
+  margin-top: 10%;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Itim', cursive;
+}
+
+.myButton {
+  margin-left: 20%;
+  margin-top: 5%;
+  box-shadow: 0px 15px 22px 3px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 6px 5px 4px #3d768a;
+}
+
+#show {
+  visibility: visible;
+  margin-right: 20%;
+}
+
+#hid {
+  visibility: collapse;
+  align-items: center;
+  justify-content: center;
+}
+
+#vib {
+  visibility: visible;
+  margin-right: 20%;
+}
+
+#invib {
+  visibility: collapse;
+  align-items: center;
+  justify-content: center;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
